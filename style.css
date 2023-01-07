@@ -1,0 +1,203 @@
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+
+h2{
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+h3{
+    font-family: 'Courier New', monospace;
+    color: lightslategray;
+    font-size: 15px;
+}
+
+h4{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 13px;
+    color:lightslategray;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav{
+    display: flex;
+    width: 900px;
+    height: fit-content;
+    justify-content: space-between;
+  }
+
+  .toplogo{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .topLogoText{
+    padding: 6px;
+  }
+
+  .topNavImg{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+  }
+
+  .moreImgs{
+    margin-left: 10px;
+  }
+
+  .crosspattern{
+    width: 900px;
+    height: 15px;
+    margin-top: 5px;
+    color: white;
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0,0,0,.5),
+      rgba(0,0,0,.5),
+      transparent 1px,
+      transparent 3px
+    );
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bigFocus{
+    width: 900px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+  }
+
+  .bigFocusText{
+    padding: 5px;
+    margin: 0;
+    width: auto;
+  }
+
+  .bigFocusP{
+    display: flex;
+    align-items: center ;
+    margin: 10px;
+  }
+
+  .bigBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    
+  }
+
+  .bigImg{
+    display: flex;
+    max-width: 100%;
+    min-width: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .instructions{
+    display: flex;
+    align-content: center;
+    width: 900px;
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+
+  .instructions p{
+    padding: 5px;
+    color:lightslategray;
+    text-indent: 2rem;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  .ingredients{
+    background-color: rgb(126, 74, 74);
+    justify-content: space-evenly;
+    display: flex;
+    width: 900px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-image: url(img/list-bg.png);
+    
+    align-items: center;
+    padding: 10px;
+    height: 250px;
+  }
+
+  .ingredients li{
+    font-family: 'Lucida Handwriting', cursive;
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 1rem;
+    color: rgb(95, 92, 92);
+  }
+
+  .bloggerinfo{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    margin-top: 1rem;
+    justify-content: space-between;
+  }
+
+  .bloggerBio h5{
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 15px;
+    color: rgb(100, 100, 100);
+  }
+
+  .bloggerBio p{
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(100, 100, 100);
+  }
+
+  button{
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: chocolate;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    height: 200px;
+  }
+
+  .footStuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+  }
+
+  .footStuff p{
+    text-align: center;
+  }
